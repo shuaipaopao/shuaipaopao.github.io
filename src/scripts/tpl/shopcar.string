@@ -1,0 +1,26 @@
+<div class="m-shopcar">
+	<header class="shop-header">
+		购物车
+	</header>
+	
+	<section>
+		<ul>
+			<li></li>
+			<li>
+				<img src="/duoshangwang/images/shop_null_icon.png"/>
+			</li>
+			<li></li>
+			<li>
+				购物车还是空的
+			</li>
+			<li>
+				去抢购活动商品吧
+			</li>
+			<li></li>
+			<li>
+				<p>去抢购</p>
+			</li>
+		</ul>
+	</section>
+	
+</div>

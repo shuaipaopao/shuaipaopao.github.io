@@ -1,0 +1,56 @@
+<div class="m-msg">
+	<header class="shop-msg">
+		<p></p>
+		<p>消息</p>
+		<p>
+			<img src="/duoshangwang/images/ic_liebiao.png"/>
+		</p>
+	</header>
+	
+	<section spa-widget="scroll">
+		<div>
+		<div></div>
+		<ul>
+			<li></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg1.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg2.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg3.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg4.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg5.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg6.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg7.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg8.jpg"/>
+			</li>
+			<li class="kong10"></li>
+			<li class="cont">
+				<img src="/duoshangwang/images/msg9.jpg"/>
+			</li>
+			<li class="kong10"></li>
+		</ul>
+		<div></div>
+		</div>
+	</section>
+	
+</div>

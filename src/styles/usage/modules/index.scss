@@ -1,0 +1,392 @@
+@import "../core/swiper-3.3.1.min.css";
+.m-index{
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    > div{
+        @include flex(); 
+        width: 100%;
+        position: relative;
+//      @include flexbox();  
+        spa-view{    
+            header{
+                background: #fff;
+                height: .44rem;
+                width: 100%;
+                @include box-sizing(border-box);
+                @include border(0 0 1px 0,#ba657c);
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    background: #f7f7f7;
+                    @include flexbox();
+                    li{
+                        &:nth-child(1){
+                            width: .76rem;
+                            height: .44rem;
+                            @include flexbox();
+                            @include justify-content(center);
+                            @include align-items(center);
+                            a{
+                                display: block;
+                                width: .58rem;
+                                height: .27rem;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                        &:nth-child(2){
+                            @include flex();
+                            width: 100%;
+                            height: 100%;
+                            @include flexbox();
+                            @include align-items(center);
+                            form{
+                                width: 100%;
+                                height: .3rem;
+                                border: 1px solid #aaa;
+                                @include flexbox();
+                                @include box-sizing(border-box);
+                                @include border-radius(5px);
+                                div{
+                                    width: .25rem;
+                                    height: .28rem;
+                                    @include flexbox();
+                                    @include justify-content(center);
+                                    @include align-items(center);
+                                    img{
+                                        width: .26rem;
+                                        height: .26rem;
+                                    }
+                                }
+                                input{
+                                    display: block;
+                                    border: none;
+                                    background: #f7f7f7;
+                                    @include flex();
+                                }
+                            }
+                        }
+                        &:nth-child(3){
+                            width: .41rem;
+                            height: .44rem;
+                            @include flexbox();
+                            @include justify-content(center);
+                            @include align-items(center);
+                            img{
+                                width: .24rem;
+                                height: .24rem;
+                            }
+                        }
+                    }
+                }
+            }
+        /*------------  section -----------*/
+            section{
+                @include flex();
+                width: 100%;
+                overflow: hidden;
+               > div{
+                    #banner{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    nav{
+                        width: 100%;
+                        height: 0.8rem;
+                        background: #f7f7f7;
+                        ul{
+                            width: 100%;
+                            height: 100%;
+                            @include flexbox();
+                            
+                            li{
+                                @include flex();
+                                @include flexbox();
+                                @include justify-content(center);
+                                @include align-items(center);
+                                @include flex-direction(column);
+                                div{
+                                    width: .5rem;
+                                    height: .5rem;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                                em{
+                                    font-size: .12rem;
+                                }
+                            }
+                        }
+                    }
+                    .kong{
+                        width: 100%;
+                        height: .08rem;
+                        background: #ebebeb;
+                    }
+                    .index-list{
+                        width: 100%;
+                        ul{
+                            width: 100%;
+                            @include flexbox();
+                            li{
+                                &:nth-child(1),&:nth-child(3){
+                                    @include flex();
+                                    height: .69rem;
+                                    background: #f7f7f7;
+                                    img{
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                                &:nth-child(2){
+                                    width: .02rem;
+                                    height: .69rem;
+                                    background: #ebebeb;
+                                }
+                            }
+                            
+                        }
+                        .index-list-kong{
+                            width: 100%;
+                            height: .02rem;
+                            background: #ebebeb;
+                        }
+                    }
+                    .kong2{
+                        width: 100%;
+                        height: .2rem;
+                        background: #ebebeb;
+                    }
+                    .zthd{
+                        width: 100%;
+                        .zthd-tit{
+                            width: 100%;
+                            height: .41rem;
+                            background: #fff;
+                            border-bottom: 1px solid #ebebeb;
+                            @include flexbox();
+                            h3{
+                                width: .66rem;
+                                text-align: center;
+                                line-height: .41rem;
+                            }
+                            div{
+                                @include flex();
+                            }
+                            p{
+                                width: .64rem;
+                                text-align: center;
+                                line-height: .41rem;
+                            }
+                        }
+                        .zthd-pro{
+                            width: 100%;
+                            @include flexbox();
+                            ul{
+                                width: 50%;
+                                @include flex();
+                                &:nth-child(1){
+                                    li{
+                                        img{
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                                &:nth-child(2){
+                                    li{
+                                        img{
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .kong3{
+                        width: 100%;
+                        height: .1rem;
+                        background: #ebebeb;
+                    }
+                    .signal{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .xptj-tit{
+                        width: 100%;
+                        height: .12rem;
+                        background: #ededed;
+                        @include flexbox();
+                        div{
+                            width: 1.39rem;
+                            @include flex();
+                            @include flexbox();
+                            @include align-items(center);
+                            @include flex-direction(column);
+                            em{
+                                width: .9rem;
+                                height: .05rem;
+                                border-bottom: .02rem solid #c4c4c4;
+                            }
+                        }
+                        p{
+                            @include flex();
+                            font-size: .12rem;
+                            text-align: center;
+                            line-height: .12rem;
+                        }
+                    }
+                    .xptj-pro{
+                        width: 100%;
+                        background: #ededed;
+                        ul{
+                            @include flexbox();
+                            width: 100%;
+                            li{
+                                &:nth-child(1),&:nth-child(3),&:nth-child(5){
+                                    width: .1rem;
+                                    height: 100%;
+                                    background: #ededed;
+                                }
+                                &:nth-child(2){
+                                    @include flex();
+                                    @include box-sizing(border-box);
+                                    @include border(1px,#d7d7d7);
+                                    img{
+                                        width: 100%;
+                                    }
+                                    .pic{
+                                        width: 100%;
+                                        background: #fff;
+                                        @include flexbox();
+                                        div{
+                                            &:nth-child(1){
+                                                width: .05rem;
+                                                height: .57rem;
+                                            }
+                                            &:nth-child(2){
+                                                @include flex();
+                                                p{
+                                                    height: .27rem;
+                                                    width: 100%;
+                                                    line-height: .27rem;
+                                                    font-size: .12rem;
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    border-bottom: 1px dashed #b4b4b4;
+                                                }
+                                                span{
+                                                    display: block;
+                                                    line-height: .28rem;
+                                                    height: .28rem;
+                                                    color: red;
+                                                    width: 100%;
+                                                }
+                                            }
+                                            &:nth-child(3){
+                                                width: .05rem;
+                                                height: .57rem;
+                                            }
+                                        }
+                                        
+                                        
+                                    }
+                                }
+                                &:nth-child(4){
+                                    @include flex();
+                                    @include box-sizing(border-box);
+                                    @include border(1px,#d7d7d7);
+                                    img{
+                                        width: 100%;
+                                    }
+                                    .pic{
+                                        width: 100%;
+                                        background: #fff;
+                                        @include flexbox();
+                                        div{
+                                            &:nth-child(1){
+                                                width: .05rem;
+                                                height: .57rem;
+                                            }
+                                            &:nth-child(2){
+                                                @include flex();
+                                                p{
+                                                    height: .27rem;
+                                                    width: 100%;
+                                                    line-height: .27rem;
+                                                    font-size: .12rem;
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    border-bottom: 1px dashed #b4b4b4;
+                                                }
+                                                span{
+                                                    display: block;
+                                                    line-height: .28rem;
+                                                    height: .28rem;
+                                                     color: red;
+                                                    width: 100%;
+                                                }
+                                            }
+                                            &:nth-child(3){
+                                                width: .05rem;
+                                                height: .57rem;
+                                            }
+                                        }
+                                        
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        
+        }
+
+    }
+
+/*------------  footer -----------*/    
+   > footer{
+        height: .47rem;
+        position: relative;
+        background:#f7f7f7;
+        width: 100%;
+        z-index: 9999;
+        ul{
+            width: 100%;
+            height: 100%;
+            @include flexbox();
+            @include box-sizing(border-box);
+            @include border(1px 0 0 0, #b4b4b4)
+            li{
+                @include flex();
+                @include flexbox();
+                @include justify-content(center);
+                @include align-items(center);
+                @include flex-direction(column);
+                em{
+                    font-size: .22rem;
+                }
+                p{
+                    font-size: .12rem;
+                }
+                &.active{
+                    color: #fd2951;
+                }
+            }
+        }
+    }
+}

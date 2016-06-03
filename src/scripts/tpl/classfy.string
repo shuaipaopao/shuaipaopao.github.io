@@ -1,0 +1,188 @@
+<div class="m-classfy">
+	<header>
+		<div></div>
+		<div>
+			<form>
+				<p>
+					<img src="/duoshangwang/images/ic_search_left.png"/>
+				</p>
+				<input type="text" placeholder="搜索" value=""/>
+				<p></p>
+			</form>
+		</div>
+		<div></div>
+		
+	</header>
+	
+	<section>
+		<div class="classfy-left" spa-widget="scroll">
+			<div class="classfy1">
+				<ul>
+					<li class="active" action-type="switch.swiper">精品男装</li>
+					<li action-type="switch.swiper">时尚女装</li>
+					<li action-type="switch.swiper">箱包配饰</li>
+					<li action-type="switch.swiper">美容美妆</li>
+					<li action-type="switch.swiper">母婴童装</li>
+					<li action-type="switch.swiper">风情鞋靴</li>
+					<li action-type="switch.swiper">数码家电</li>
+					<li action-type="switch.swiper">饰品配饰</li>
+					<li action-type="switch.swiper">食品零食</li>
+					<li action-type="switch.swiper">家居用品</li>
+					<li action-type="switch.swiper">汽车配件</li>
+					<li action-type="switch.swiper">体育用品</li>
+					<li action-type="switch.swiper">办公用品</li>
+				</ul>
+			</div>
+		</div>
+		<div class="classfy-right" spa-widget="scroll">
+			<div class="swiper-container" id="classfy-swiper">
+			  <div class="swiper-wrapper">
+			    <div class="swiper-slide">   	
+					<div class="classfy-container">
+						<p>上装</p>
+						<ul>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan1.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan2.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan3.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+						</ul>
+						<div></div>
+						<ul>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan4.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan5.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan6.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+						</ul>
+						<div></div>
+						<ul>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan7.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan8.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan9.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+						</ul>
+						<div></div>
+						<ul>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan10.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan11.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan12.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+						</ul>
+						<div></div>
+						<ul>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan13.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nan14.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li></li>
+						</ul>
+						<p>下装</p>
+						<ul>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nank1.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nank2.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nank3.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+						</ul>
+						<ul>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nank4.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+								<img src="/duoshangwang/images/list/nank5.jpg"/>
+								<em>秋冬外套</em>
+							</li>
+							<li></li>
+							<li>
+							</li>
+							<li></li>
+						</ul>
+					</div>
+			    </div>
+			    <div class="swiper-slide">22222222222</div>
+			    <div class="swiper-slide">33333333333</div>
+			    <div class="swiper-slide">44444444444</div>
+			    <div class="swiper-slide">55555555555</div>
+			    <div class="swiper-slide">66666666666</div>
+			    <div class="swiper-slide">77777777777</div>
+			    <div class="swiper-slide">88888888888</div>
+			    <div class="swiper-slide">99999999999</div>
+			    <div class="swiper-slide">10000000000</div>
+			    <div class="swiper-slide">11111111111</div>
+			    <div class="swiper-slide">12121212121</div>
+			    <div class="swiper-slide">13131313113</div>
+			  </div>
+			</div>
+
+		</div>
+	</section>
+	
+</div>

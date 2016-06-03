@@ -1,0 +1,345 @@
+	<header>
+		<ul>
+			<li>
+				<a href="#">
+					<img src="/duoshangwang/images/logo.jpg"/>
+				</a>
+			</li>
+			<li>
+				<form>
+					<div>
+						<img src="/duoshangwang/images/ic_search_normal.png"/>
+					</div>
+					<input type="text" value="" placeholder="搜索"/>
+					<div>
+						
+					</div>
+				</form>
+			</li>
+			<li>
+				<img src="/duoshangwang/images/ic_home_scan.png"/>
+			</li>
+		</ul>
+	</header>
+	
+	<section id="index-scroll" spa-widget="scroll">
+		<div>
+			<div class="swiper-container" id="banner">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><a><img src='/duoshangwang/images/banner1.jpg'></a></div>
+			        <div class="swiper-slide"><a><img src='/duoshangwang/images/banner2.jpg'></a></div>
+			        <div class="swiper-slide"><a><img src='/duoshangwang/images/banner3.jpg'></a></div>
+			        <div class="swiper-slide"><a><img src='/duoshangwang/images/banner4.jpg'></a></div>
+			    </div>
+			    <div class="swiper-pagination" style='color:#b2000c;'></div>
+		    </div>
+
+			<nav>
+				<ul>
+					<li>
+						<div>
+							<img src="/duoshangwang/images/nav1.png"/>
+						</div>
+						<em>微分销</em>
+					</li>
+					<li>
+						<div>
+							<img src="/duoshangwang/images/nav2.png"/>
+						</div>
+						<em>报活动</em>
+					</li>
+					<li>
+						<div>
+							<img src="/duoshangwang/images/nav3.png"/>
+						</div>
+						<em>城市合伙人</em>
+					</li>
+					<li>
+						<div>
+							<img src="/duoshangwang/images/nav4.png"/>
+						</div>
+						<em>店铺诊断</em>
+					</li>
+					<li>
+						<div>
+							<img src="/duoshangwang/images/nav5.png"/>
+						</div>
+						<em>腾讯课堂</em>
+					</li>
+				</ul>
+			</nav>
+			<div class="kong"></div>
+			<div class="index-list">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list1.jpg"/>
+						</a>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list2.jpg"/>
+						</a>
+					</li>
+				</ul>
+				<div class="index-list-kong"></div>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list3.jpg"/>
+						</a>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list4.jpg"/>
+						</a>
+					</li>
+				</ul>
+				<div class="index-list-kong"></div>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list5.jpg"/>
+						</a>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list6.jpg"/>
+						</a>
+					</li>
+				</ul>
+				<div class="index-list-kong"></div>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list7.jpg"/>
+						</a>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/list8.jpg"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="kong2">
+				
+			</div>
+			<div class="zthd">
+				<div class="zthd-tit">
+					<h3>专题活动</h3>
+					<div></div>
+					<p>更多></p>
+				</div>
+				<div class="zthd-pro">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="/duoshangwang/images/zthd1.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="/duoshangwang/images/zthd2.jpg"/>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="/duoshangwang/images/zthd3.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="/duoshangwang/images/zthd4.jpg"/>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="/duoshangwang/images/zthd5.jpg"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="kong3">
+				
+			</div>
+			<div class="signal">
+				<a href="#">
+					<img src="/duoshangwang/images/signal.jpg"/>
+				</a>
+			</div>
+			<div class="kong2">
+				
+			</div>
+			<div class="xptj-tit">
+				<div><em></em></div>
+				<p>新品推荐</p>
+				<div><em></em></div>
+			</div>
+			<div class="kong3">
+				
+			</div>
+			<div class="xptj-pro">
+				<ul>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro1.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>金丽都时尚印花圆领t恤33664</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro2.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>金丽都2016夏季新款韩版显瘦t恤个性时尚圆领印花打底衫 96055</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+				</ul>
+				<div class="kong3">
+					
+				</div>
+				<ul>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro3.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>女人志 2016韩版时尚淑女套装 650</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro4.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>女人志 2016韩版T恤+格子短裙套装 637</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+				</ul>
+				<div class="kong3">
+					
+				</div>
+				<ul>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro5.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>A-MIN韩版圆领纯色修身显瘦镂空学生短袖T恤上衣女JEB3020</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro6.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>女人志 韩版甜蜜修身连衣裙套装 703</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+				</ul>
+				<div class="kong3">
+					
+				</div>
+				<ul>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro7.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>女人志 2016韩版新款花朵网纱连衣裙 632</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+					<li>
+						<a href="#">
+							<img src="/duoshangwang/images/pro8.jpg"/>
+						</a>
+						<div class="pic">
+							<div></div>
+							<div>
+								<p>女人志 2016韩版夏季露肩连衣裙 631</p>
+								<span>
+									￥30.00
+								</span>
+							</div>
+							<div></div>
+						</div>
+					</li>
+					<li></li>
+				</ul>
+				<div class="kong3">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	
