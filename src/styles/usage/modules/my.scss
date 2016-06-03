@@ -1,0 +1,56 @@
+.m-my{
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+
+    .my-header{
+        width: 100%;
+        background: #f5f6f8 !important;
+        height: .44rem;
+        color: #4c4c4c;
+        font-weight: bold;
+        font-size: .18rem;
+        @include flexbox();
+        //border-bottom: 1px solid #adacb1 !important;
+        @include box-sizing(border-box);
+        @include border(0 0 1px 0,#454d62);
+        p{
+            &:nth-child(1){
+                width: .44rem;
+            }
+            &:nth-child(2){
+                @include flex();
+                @include flexbox();
+                @include justify-content(center);
+                @include align-items(center);
+            }
+            &:nth-child(3){
+                width: .44rem;
+                @include flexbox();
+                @include justify-content(center);
+                @include align-items(center);
+                img{
+                    width: .2rem;
+                }
+            }
+        }
+    }
+    section{
+        @include flex();
+        width: 100%;
+        ul{
+          width: 100%;
+            .my-img{
+              img{
+                width: 100%;
+              }
+            }
+            .m-kong{
+              width: 100%;
+              height: .2rem;
+              background-color: #f2f2f2;
+            }
+        }
+    }
+}

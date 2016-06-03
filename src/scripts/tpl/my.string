@@ -1,0 +1,29 @@
+<div class="m-my">
+	<header class="my-header">
+		<p></p>
+		<p>我的</p>
+		<p>
+			<img src="/duoshangwang/images/ic_setting.png"/>
+		</p>
+	</header>
+
+	<section spa-widget="scroll">
+		<div class="my-section">
+			<ul>
+				<li class="my-img">
+						<img src="/duoshangwang/images/my/my11.jpg" alt="" />
+				</li>
+				<li class="m-kong"></li>
+				<li class="my-img">
+						<img src="/duoshangwang/images/my/my22.jpg" alt="" />
+				</li>
+				<li class="m-kong"></li>
+				<li class="my-img">
+						<img src="/duoshangwang/images/my/my33.jpg" alt="" />
+				</li>
+				<li class="m-kong"></li>
+			</ul>
+		</div>
+	</section>
+
+</div>

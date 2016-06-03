@@ -11,9 +11,9 @@
 			</form>
 		</div>
 		<div></div>
-		
+
 	</header>
-	
+
 	<section>
 		<div class="classfy-left" spa-widget="scroll">
 			<div class="classfy1">
@@ -34,11 +34,11 @@
 				</ul>
 			</div>
 		</div>
-		<div class="classfy-right" spa-widget="scroll">
+		<div class="classfy-right">
 			<div class="swiper-container" id="classfy-swiper">
 			  <div class="swiper-wrapper">
-			    <div class="swiper-slide">   	
-					<div class="classfy-container">
+			    <div class="swiper-slide" spa-widget="scroll">
+					<div class="classfy-container" >
 						<p>上装</p>
 						<ul>
 							<li></li>
@@ -184,5 +184,5 @@
 
 		</div>
 	</section>
-	
+
 </div>

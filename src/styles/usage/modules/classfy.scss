@@ -85,6 +85,7 @@
         .classfy-right{
             @include flex();
             background: #fff;
+            width: 100%;
             .classfy-container{
                 width: 100%;
                 p{

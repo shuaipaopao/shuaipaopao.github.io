@@ -18,7 +18,7 @@
 				<em class="yo-ico">&#xe61b;</em>
 				<p>消息</p>
 			</li>
-			<li>
+			<li action-type="switch.view" data-tag = "my">
 				<em class="yo-ico">&#xe629;</em>
 				<p>我的</p>
 			</li>
