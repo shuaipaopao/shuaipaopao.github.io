@@ -26,10 +26,10 @@ SPA.defineView('classfy',{
 				var vm = this.getVM();
 				//console.log(that.param.id);
 				$.ajax({
-					url: '/api/classfy.php',
-					data:{
-						id:numb
-					},
+					url: '/duoshangwang/mock/classfy'+numb+'.json',
+					// data:{
+					// 	id:numb
+					// },
 					success:function(res){
 							vm.classfy1 = res.data1;
 							vm.classfy2 = res.data2;
