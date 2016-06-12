@@ -1,0 +1,56 @@
+<div class="m-det">
+	<header class="det-header">
+		<p action-type="goto.classfy">
+				<img src="/duoshangwang/images/ic_back_normal.png"/>
+		</p>
+		<p>秋冬外套</p>
+		<p></p>
+	</header>
+	<nav>
+		<ul>
+			<li class="nav-li">
+					<p>
+						 综合
+					</p>
+			</li>
+			<li class="nav-li"><p>销量</p></li>
+			<li class="nav-li"><p>价格</p></li>
+			<li>
+					<img src="/duoshangwang/images/select_list_icon.png"/>
+			</li>
+		</ul>
+	</nav>
+	<section spa-widget="scroll" data-scroll-id = "detScroll">
+			<div class="det-sc">
+				<div class="head">
+	              <img src="/duoshangwang/images/indicator_arrow.png"/>
+	              <span>下拉刷新...</span>
+	          </div>
+				<p></p>
+				<ul class="det-sec" ms-repeat-value="detlist">
+					<li class="det-kong"></li>
+					<li>
+							<img ms-src="value[0].imgsrc"/>
+							<div class="det-tit">
+									<div ms-text="value[0].title"></div>
+									<em ms-text="value[0].price"></em>
+							</div>
+					</li>
+					<li class="det-kong"></li>
+					<li>
+							<img ms-src="value[1].imgsrc"/>
+							<div class="det-tit">
+									<div ms-text="value[1].title"></div>
+									<em ms-text="value[1].price"></em>
+							</div>
+					</li>
+					<li class="det-kong"></li>
+				</ul>
+				<div class="foot">
+	              <img src="/duoshangwang/images/indicator_arrow.png"/>
+	              <span>上拉加载更多...</span>
+	          </div>
+			</div>
+	</section>
+
+</div>

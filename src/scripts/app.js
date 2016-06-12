@@ -7,6 +7,7 @@ require('./views/home.js');
 require('./views/shopcar.js');
 require('./views/msg.js');
 require('./views/my.js');
+require('./views/det.js');
 require('./views/index.js');
 
 // 配置视图的信息
@@ -14,3 +15,8 @@ require('./views/index.js');
 SPA.config({
   indexView: 'guide'
 });
+
+// var indexView = SPA.util.storage('isVisited') ? 'index' : 'guide';
+// SPA.config({
+//   indexView: indexView
+// });

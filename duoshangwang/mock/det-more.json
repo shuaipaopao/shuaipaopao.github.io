@@ -1,0 +1,46 @@
+{
+  "ret":true,
+  "errCode":0,
+  "det":[
+    {
+      "imgsrc":"/duoshangwang/images/det1.jpg" ,
+      "title":"more博莱登哥 男装休闲外套 B-504",
+      "price":"￥90"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/det2.jpg" ,
+      "title":"more倬澳 男士牛仔衬衫 ZA150208-41",
+      "price":"￥90"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/det3.jpg" ,
+      "title":"more博莱登哥 男装休闲外套 B-507",
+      "price":"￥90"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/det4.jpg" ,
+      "title":"more博莱登哥 双领撞色修闲风衣 B-004",
+      "price":"￥90"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/det5.jpg" ,
+      "title":"more倬澳 男士牛仔衬衫 ZA150209-42",
+      "price":"￥90"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/det6.jpg" ,
+      "title":"more博莱登哥 企领修闲风衣 B-005",
+      "price":"￥90"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/det7.jpg" ,
+      "title":"more倬澳 男士牛仔衬衫 ZA150211-44",
+      "price":"￥90"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/det8.jpg" ,
+      "title":"more秋冬外套",
+      "price":"￥90"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "ret":true,
+  "errCode":0,
+  "data1":[
+    {
+      "imgsrc":"/duoshangwang/images/list/nv1.jpg" ,
+      "title":"T恤"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv2.jpg" ,
+      "title":"蕾丝衫"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv3.jpg" ,
+      "title":"衬衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv3.jpg" ,
+      "title":"吊带背心"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv5.jpg" ,
+      "title":"卫衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv6.jpg" ,
+      "title":"毛针织衫"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv6.jpg" ,
+      "title":"毛衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv8.jpg" ,
+      "title":"短外套"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv9.jpg" ,
+      "title":"风衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv10.jpg" ,
+      "title":"毛呢外套"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv11.jpg" ,
+      "title":"羽绒"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv12.jpg" ,
+      "title":"披风"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv13.jpg" ,
+      "title":"马甲"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv14.jpg" ,
+      "title":"情侣装"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv15.jpg" ,
+      "title":"小西服"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nv16.jpg" ,
+      "title":"皮草"
+    }
+  ],
+  "data2":[
+    {
+      "imgsrc":"/duoshangwang/images/list/nvq1.jpg" ,
+      "title":"牛仔裤"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nvq2.jpg" ,
+      "title":"牛仔裤"
+    }
+  ],
+  "data3":[
+      {
+        "tit1":"上装",
+        "tit2":"女裙"
+      }
+  ]
+}

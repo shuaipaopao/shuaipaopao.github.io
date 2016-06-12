@@ -15,174 +15,185 @@
 	</header>
 
 	<section>
-		<div class="classfy-left" spa-widget="scroll">
-			<div class="classfy1">
+		<div class="classfy-left" spa-widget="scroll" data-scroll-id="listScroll">
+			<div class="classfy1" id="classfy1">
 				<ul>
-					<li class="active" action-type="switch.swiper">精品男装</li>
-					<li action-type="switch.swiper">时尚女装</li>
-					<li action-type="switch.swiper">箱包配饰</li>
-					<li action-type="switch.swiper">美容美妆</li>
-					<li action-type="switch.swiper">母婴童装</li>
-					<li action-type="switch.swiper">风情鞋靴</li>
-					<li action-type="switch.swiper">数码家电</li>
-					<li action-type="switch.swiper">饰品配饰</li>
-					<li action-type="switch.swiper">食品零食</li>
-					<li action-type="switch.swiper">家居用品</li>
-					<li action-type="switch.swiper">汽车配件</li>
-					<li action-type="switch.swiper">体育用品</li>
-					<li action-type="switch.swiper">办公用品</li>
+					<li action-type = "class.tap" class="active">精品男装</li>
+					<li action-type = "class.tap">时尚女装</li>
+					<li action-type = "class.tap">箱包配饰</li>
+					<li action-type = "class.tap">美容美妆</li>
+					<li action-type = "class.tap">母婴童装</li>
+					<li action-type = "class.tap">风情鞋靴</li>
+					<li action-type = "class.tap">数码家电</li>
+					<li action-type = "class.tap">饰品配饰</li>
+					<li action-type = "class.tap">食品零食</li>
+					<li action-type = "class.tap">家居用品</li>
+					<li action-type = "class.tap">汽车配件</li>
+					<li action-type = "class.tap">体育用品</li>
+					<li action-type = "class.tap">办公用品</li>
 				</ul>
 			</div>
 		</div>
-		<div class="classfy-right">
-			<div class="swiper-container" id="classfy-swiper">
-			  <div class="swiper-wrapper">
-			    <div class="swiper-slide" spa-widget="scroll">
-					<div class="classfy-container" >
-						<p>上装</p>
-						<ul>
+		<div class="classfy-right" >
+
+ 				<div class="classfy-container active" spa-widget="scroll">
+					<div>
+						<p ms-repeat-value="classfy3" ms-text="value.tit1"></p>
+						<ul ms-repeat-value="classfy1">
 							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan1.jpg"/>
-								<em>秋冬外套</em>
+							<li action-type= "goto.det">
+								<img ms-src="value[0].imgsrc"/>
+								<em ms-text="value[0].title"></em>
 							</li>
 							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan2.jpg"/>
-								<em>秋冬外套</em>
+							<li ms-class-hidden="!value[1]">
+								<img ms-src="value[1].imgsrc"/>
+								<em ms-text="value[1].title"></em>
 							</li>
 							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan3.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-						</ul>
-						<div></div>
-						<ul>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan4.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan5.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan6.jpg"/>
-								<em>秋冬外套</em>
+							<li ms-class-hidden="!value[2]">
+								<img ms-src="value[2].imgsrc"/>
+								<em ms-text="value[2].title"></em>
 							</li>
 							<li></li>
 						</ul>
-						<div></div>
-						<ul>
+						<p ms-repeat-value="classfy3" ms-text="value.tit2"></p>
+						<ul ms-repeat-value="classfy2">
 							<li></li>
 							<li>
-								<img src="/duoshangwang/images/list/nan7.jpg"/>
-								<em>秋冬外套</em>
+								<img ms-src="value[0].imgsrc"/>
+								<em ms-text="value[0].title"></em>
 							</li>
 							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan8.jpg"/>
-								<em>秋冬外套</em>
+							<li ms-class-hidden="!value[1]">
+								<img ms-src="value[1].imgsrc"/>
+								<em ms-text="value[1].title"></em>
 							</li>
 							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan9.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-						</ul>
-						<div></div>
-						<ul>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan10.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan11.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan12.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-						</ul>
-						<div></div>
-						<ul>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan13.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nan14.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li></li>
-						</ul>
-						<p>下装</p>
-						<ul>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nank1.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nank2.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nank3.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-						</ul>
-						<ul>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nank4.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
-								<img src="/duoshangwang/images/list/nank5.jpg"/>
-								<em>秋冬外套</em>
-							</li>
-							<li></li>
-							<li>
+							<li ms-class-hidden="!value[2]">
+								<img ms-src="value[2].imgsrc"/>
+								<em ms-text="value[2].title"></em>
 							</li>
 							<li></li>
 						</ul>
 					</div>
-			    </div>
-			    <div class="swiper-slide">22222222222</div>
-			    <div class="swiper-slide">33333333333</div>
-			    <div class="swiper-slide">44444444444</div>
-			    <div class="swiper-slide">55555555555</div>
-			    <div class="swiper-slide">66666666666</div>
-			    <div class="swiper-slide">77777777777</div>
-			    <div class="swiper-slide">88888888888</div>
-			    <div class="swiper-slide">99999999999</div>
-			    <div class="swiper-slide">10000000000</div>
-			    <div class="swiper-slide">11111111111</div>
-			    <div class="swiper-slide">12121212121</div>
-			    <div class="swiper-slide">13131313113</div>
-			  </div>
-			</div>
+				</div>
+				<!-- <div class="classfy-container" spa-widget="scroll" data-scroll-id="classfyScroll">
+					<div>
+						<p>上衣</p>
+						<ul ms-repeat-value="nvlist">
+							<li></li>
+							<li>
+								<img ms-src="value[0].imgsrc"/>
+								<em ms-text="value[0].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[1]">
+								<img ms-src="value[1].imgsrc"/>
+								<em ms-text="value[1].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[2]">
+								<img ms-src="value[2].imgsrc"/>
+								<em ms-text="value[2].title"></em>
+							</li>
+							<li></li>
+						</ul>
+						<p>裙子</p>
+						<ul ms-repeat-value="nvqlist">
+							<li></li>
+							<li>
+								<img ms-src="value[0].imgsrc"/>
+								<em ms-text="value[0].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[1]">
+								<img ms-src="value[1].imgsrc"/>
+								<em ms-text="value[1].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[2]">
+								<img ms-src="value[2].imgsrc"/>
+								<em ms-text="value[2].title"></em>
+							</li>
+							<li></li>
+						</ul>
+					</div>
+					</div>
+					<div class="classfy-container" spa-widget="scroll">
+						<div>
+						<p>女包</p>
+						<ul ms-repeat-value="nvbao">
+							<li></li>
+							<li>
+								<img ms-src="value[0].imgsrc"/>
+								<em ms-text="value[0].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[1]">
+								<img ms-src="value[1].imgsrc"/>
+								<em ms-text="value[1].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[2]">
+								<img ms-src="value[2].imgsrc"/>
+								<em ms-text="value[2].title"></em>
+							</li>
+							<li></li>
+						</ul>
+						<p>男包</p>
+						<ul ms-repeat-value="nanbao">
+							<li></li>
+							<li>
+								<img ms-src="value[0].imgsrc"/>
+								<em ms-text="value[0].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[1]">
+								<img ms-src="value[1].imgsrc"/>
+								<em ms-text="value[1].title"></em>
+							</li>
+							<li></li>
+							<li ms-class-hidden="!value[2]">
+								<img ms-src="value[2].imgsrc"/>
+								<em ms-text="value[2].title"></em>
+							</li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+				<div class="classfy-container">
+						美容美妆
+				</div>
+				<div class="classfy-container">
+						母婴童装
+				</div>
+				<div class="classfy-container">
+						风情鞋靴
+				</div>
+				<div class="classfy-container">
+						数码家电
+				</div>
+				<div class="classfy-container">
+						饰品配饰
+				</div>
+				<div class="classfy-container">
+						食品零食
+				</div>
+				<div class="classfy-container">
+						汽车配件
+				</div>
+				<div class="classfy-container">
+						食品零食
+				</div>
+				<div class="classfy-container">
+						体育用品
+				</div>
+				<div class="classfy-container">
+						办公用品
+				</div> -->
 
-		</div>
+			</div>
 	</section>
 
 </div>

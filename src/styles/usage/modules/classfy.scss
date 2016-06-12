@@ -4,7 +4,7 @@
     height: 100%;
     @include flexbox();
     @include flex-direction(column);
-    
+
     header{
         width: 100%;
         background: #f7f7f7;
@@ -50,13 +50,13 @@
             }
         }
     }
-/*------------  section -----------*/ 
+/*------------  section -----------*/
 
-    
+
     section{
         @include flex();
         width: 100%;
-        overflow: hidden;
+        //overflow: hidden;
         @include flexbox();
         @include box-sizing(border-box);
         @include border(.01rem 0 0 0,#b4b4b4);
@@ -85,9 +85,14 @@
         .classfy-right{
             @include flex();
             background: #fff;
-            width: 100%;
+            @include flexbox();
             .classfy-container{
-                width: 100%;
+              @include flex();
+              //height: 100%;
+              display: none;
+              &.active{
+                display: block;
+              }
                 p{
                     width: 100%;
                     height: .3rem;
@@ -111,9 +116,9 @@
                             em{
                                 display: block;
                                 font-size: .12rem;
-                                height: .27rem;
-                                text-align: centr;
-                                line-height: .27rem;
+                                height: .4rem;
+                                text-align: center;
+                                line-height: .25rem;
                             }
                         }
                         &:nth-child(4){
@@ -124,7 +129,7 @@
                             em{
                                 display: block;
                                 font-size: .12rem;
-                                height: .25rem;
+                                height: .4rem;
                                 text-align: center;
                                 line-height: .25rem;
                             }
@@ -137,19 +142,19 @@
                             em{
                                 display: block;
                                 font-size: .12rem;
-                                height: .25rem;
+                                height: .4rem;
                                 text-align: center;
                                 line-height: .25rem;
                             }
                         }
+                        &.hidden{
+                          visibility: hidden;
+                        }
                     }
-                }
-                div{
-                    height: .15rem;
                 }
             }
         }
     }
-    
+
 
 }

@@ -1,0 +1,90 @@
+{
+  "ret":true,
+  "errCode":0,
+  "data1":[
+    {
+      "imgsrc":"/duoshangwang/images/list/nan9.jpg" ,
+      "title":"秋冬外套"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan2.jpg" ,
+      "title":"衬衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan3.jpg" ,
+      "title":"卫衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan4.jpg" ,
+      "title":"夹克"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan5.jpg" ,
+      "title":"马甲"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan6.jpg" ,
+      "title":"风衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan7.jpg" ,
+      "title":"西装"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan8.jpg" ,
+      "title":"针织线衫"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan1.jpg" ,
+      "title":"T恤"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan10.jpg" ,
+      "title":"羽绒服"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan11.jpg" ,
+      "title":"棉衣外套"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan12.jpg" ,
+      "title":"保暖内衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan13.jpg" ,
+      "title":"毛衣"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nan14.jpg" ,
+      "title":"背心"
+    }
+  ],
+  "data2":[
+      {
+        "imgsrc":"/duoshangwang/images/list/nank1.jpg" ,
+        "title":"牛仔裤"
+      },
+      {
+        "imgsrc":"/duoshangwang/images/list/nank2.jpg" ,
+        "title":"休闲裤"
+      },
+      {
+        "imgsrc":"/duoshangwang/images/list/nank3.jpg" ,
+        "title":"运动裤"
+      },
+      {
+        "imgsrc":"/duoshangwang/images/list/nank4.jpg" ,
+        "title":"西裤"
+      },
+      {
+        "imgsrc":"/duoshangwang/images/list/nank5.jpg" ,
+        "title":"五分裤"
+      }
+    ],
+    "data3":[
+        {
+          "tit1":"上装",
+          "tit2":"下装"
+        }
+    ]
+}

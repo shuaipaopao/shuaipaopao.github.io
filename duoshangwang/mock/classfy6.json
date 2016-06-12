@@ -1,0 +1,50 @@
+{
+  "ret":true,
+  "errCode":0,
+  "data1":[
+    {
+      "imgsrc":"/duoshangwang/images/list/nvbao1.jpg" ,
+      "title":"单肩包"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nvbao2.jpg" ,
+      "title":"手提包"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nvbao3.jpg" ,
+      "title":"斜跨包"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nvbao4.jpg" ,
+      "title":"晚宴包"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nvbao5.jpg" ,
+      "title":"手拿包"
+    }
+  ],
+  "data2":[
+    {
+      "imgsrc":"/duoshangwang/images/list/nanbao1.jpg" ,
+      "title":"单肩包"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nanbao2.jpg" ,
+      "title":"斜跨包"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nanbao3.jpg" ,
+      "title":"手提包"
+    },
+    {
+      "imgsrc":"/duoshangwang/images/list/nanbao4.jpg" ,
+      "title":"帆布包"
+    }
+  ],
+  "data3":[
+      {
+        "tit1":"女包",
+        "tit2":"男包"
+      }
+  ]
+}
