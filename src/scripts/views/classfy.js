@@ -80,10 +80,10 @@ SPA.defineView('classfy',{
 			var that = this;
 			var vm = this.getVM();
 			$.ajax({
-				url: '/api/classfy.php',
-				data:{
-					id:1
-				},
+				url: '/duoshangwang/mock/classfy1.json',
+				// data:{
+				// 	id:1
+				// },
 				success:function(res){
 						vm.classfy1 = res.data1;
 						vm.classfy2 = res.data2;
