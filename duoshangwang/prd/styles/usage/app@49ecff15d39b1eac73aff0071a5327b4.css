@@ -127,7 +127,7 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .m-index>div spa-view header ul li:nth-child(3){width:.41rem;height:.44rem;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
 .m-index>div spa-view header ul li:nth-child(3) img{width:.24rem;height:.24rem}
 .m-index>div spa-view section{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;width:100%;overflow:hidden}
-.m-index>div spa-view section>div #banner{width:100%;height:3.6rem}
+.m-index>div spa-view section>div #banner{width:100%;height:1.8rem}
 .m-index>div spa-view section>div #banner img{width:100%;height:100%}
 .m-index>div spa-view section>div nav{width:100%;height:.8rem;background:#f7f7f7}
 .m-index>div spa-view section>div nav ul{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:flex}
