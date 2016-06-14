@@ -75,10 +75,10 @@ SPA.defineView('det',{
 		              head.attr('src', '/duoshangwang/images/ajax-loader.gif');
 		              // ajax下拉刷新数据
 		              $.ajax({
-		                url: '/api/det.php',
-		                data: {
-		                  type: 'new'
-		                },
+		                url: '/duoshangwang/mock/det-new.json',
+		                // data: {
+		                //   type: 'new'
+		                // },
 										//url:'/duoshangwang/mock/det-new.json',
 		                success: function (res) {
 											//console.log(res.det);
@@ -110,10 +110,10 @@ SPA.defineView('det',{
 
 		              // ajax上拉加载数据
 		              $.ajax({
-		                url: '/api/det.php',
-		                data: {
-		                  type: 'more'
-		                },
+		                url: '/duoshangwang/mock/det-more.json',
+		                // data: {
+		                //   type: 'more'
+		                // },
 										//url:'/duoshangwang/mock/det-more.json',
 		                success: function (res) {
 		                	//console.log(res)
