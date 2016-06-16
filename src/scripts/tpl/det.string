@@ -22,10 +22,10 @@
 	</nav>
 	<section spa-widget="scroll" data-scroll-id = "detScroll">
 			<div class="det-sc">
-				<div class="head">
+				<!-- <div class="head">
 	              <img src="/duoshangwang/images/indicator_arrow.png"/>
 	              <span>下拉刷新...</span>
-	          </div>
+	          </div> -->
 				<p></p>
 				<ul class="det-sec" ms-repeat-value="detlist">
 					<li class="det-kong"></li>

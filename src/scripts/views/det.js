@@ -42,6 +42,10 @@ SPA.defineView('det',{
 			})
 			//pull to refresh
 				var myScroll = this.widgets.detScroll;
+				myScroll.on('scrollEnd', function () {
+		          myScroll.refresh();
+		      });
+
 		    var topSize = 30;
 
 		    myScroll.scrollBy(0, -topSize);

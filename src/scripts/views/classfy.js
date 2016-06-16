@@ -109,7 +109,10 @@ SPA.defineView('classfy',{
 						vm.classfy2 = tempArr2;
 				}
 			});
-
+			var classfyScroll = this.widgets.classfyScroll;
+			classfyScroll.on('scrollEnd', function () {
+						classfyScroll.refresh();
+				});
 			// this.listScroll = that.widgets.listScroll;
 			// this.listScroll.options.crollX = false;
 			// this.listScroll.options.crollY = true;

@@ -36,7 +36,7 @@
 		</div>
 		<div class="classfy-right" >
 
- 				<div class="classfy-container active" spa-widget="scroll">
+ 				<div class="classfy-container active" spa-widget="scroll" data-scroll-id = "classfyScroll">
 					<div>
 						<p ms-repeat-value="classfy3" ms-text="value.tit1"></p>
 						<ul ms-repeat-value="classfy1">

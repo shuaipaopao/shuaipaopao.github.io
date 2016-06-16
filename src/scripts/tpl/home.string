@@ -12,7 +12,7 @@
 					</div>
 					<input type="text" value="" placeholder="搜索"/>
 					<div>
-						
+
 					</div>
 				</form>
 			</li>
@@ -21,8 +21,8 @@
 			</li>
 		</ul>
 	</header>
-	
-	<section id="index-scroll" spa-widget="scroll">
+
+	<section id="index-scroll" spa-widget="scroll" data-scroll-id = "indexScroll">
 		<div>
 			<div class="swiper-container" id="banner">
 			    <div class="swiper-wrapper">
@@ -127,7 +127,7 @@
 				</ul>
 			</div>
 			<div class="kong2">
-				
+
 			</div>
 			<div class="zthd">
 				<div class="zthd-tit">
@@ -168,7 +168,7 @@
 				</div>
 			</div>
 			<div class="kong3">
-				
+
 			</div>
 			<div class="signal">
 				<a href="#">
@@ -176,7 +176,7 @@
 				</a>
 			</div>
 			<div class="kong2">
-				
+
 			</div>
 			<div class="xptj-tit">
 				<div><em></em></div>
@@ -184,7 +184,7 @@
 				<div><em></em></div>
 			</div>
 			<div class="kong3">
-				
+
 			</div>
 			<div class="xptj-pro">
 				<ul>
@@ -223,7 +223,7 @@
 					<li></li>
 				</ul>
 				<div class="kong3">
-					
+
 				</div>
 				<ul>
 					<li></li>
@@ -261,7 +261,7 @@
 					<li></li>
 				</ul>
 				<div class="kong3">
-					
+
 				</div>
 				<ul>
 					<li></li>
@@ -299,7 +299,7 @@
 					<li></li>
 				</ul>
 				<div class="kong3">
-					
+
 				</div>
 				<ul>
 					<li></li>
@@ -337,9 +337,8 @@
 					<li></li>
 				</ul>
 				<div class="kong3">
-					
+
 				</div>
 			</div>
 		</div>
 	</section>
-	
